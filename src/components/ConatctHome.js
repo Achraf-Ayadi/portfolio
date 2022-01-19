@@ -7,7 +7,7 @@ const ContactHome = () => {
     <section className='connect'>
       <video
         controls
-        autoplay
+        autoPlay
         muted
         loop
         // poster=''

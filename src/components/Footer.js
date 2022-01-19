@@ -1,15 +1,19 @@
 import React from 'react'
-import { BsFacebook } from 'react-icons/bs'
 import { AiFillLinkedin } from 'react-icons/ai'
 
 const Footer = () => {
+  let date = new Date().getFullYear()
+
   return (
     <section class='footer'>
-      <BsFacebook />
-      <AiFillLinkedin />
+      <ul className='social-icons'>
+        <li className='social-icon'>
+          <AiFillLinkedin />
+        </li>
+      </ul>
 
       <p>
-        &copy; <span></span> John Doe. All rights reserved.
+        &copy; <span>{date}</span> Achraf Ayadi. All rights reserved.
       </p>
     </section>
   )

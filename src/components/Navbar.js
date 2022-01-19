@@ -1,9 +1,20 @@
 import React from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+  const [navFixed, setNavFixed] = useState(false)
+  const event = () => {
+    if (window.scrollY > 80) {
+      setNavFixed(true)
+    } else {
+      setNavFixed(false)
+    }
+  }
+  window.addEventListener('scroll', event)
+
   return (
-    <nav className='nav'>
+    <nav className={`${navFixed ? 'nav navbar-fixed' : 'nav'}`}>
       <div className='nav-center'>
         <Link to='/'>
           {/* <img src={} alt='cocktails logo' className='logo' /> */}

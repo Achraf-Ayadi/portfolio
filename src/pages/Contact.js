@@ -10,11 +10,14 @@ const Contact = () => {
       <div class='page-info section-center'>
         <p>
           If you are looking to get ahold of me, you can send me an email at
-          <a href='mailto:email@email.com'>@your_email</a>
+          <a href='#'> ayadi.achraf2@gmail.com</a>
         </p>
         <p>
-          You can also reach me on Twitter at
-          <a href='https://www.twitter.com'>@your_social_media </a>
+          You can also reach me on
+          <a href='https://www.linkedin.com/in/aschraf-ayadi-393523187/'>
+            {' '}
+            LinkedIn{' '}
+          </a>
         </p>
       </div>
     </section>

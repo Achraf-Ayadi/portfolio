@@ -5,12 +5,11 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import Error from './pages/Error'
 
 // components
 import Navbar from './components/Navbar'
-
 import Footer from './components/Footer'
-
 import './App.css'
 
 function App() {
@@ -29,6 +28,9 @@ function App() {
         </Route>
         <Route exact path='/contact'>
           <Contact />
+        </Route>
+        <Route exact path='*'>
+          <Error />
         </Route>
       </Switch>
       <Footer />

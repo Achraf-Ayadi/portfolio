@@ -9,8 +9,8 @@ const Hero = () => {
       <div className='section-center hero-center'>
         <article className='hero-info'>
           <div className='underline'></div>
-          <h1>i'm john</h1>
-          <h4>freelance web & mobile UI/UX Designer</h4>
+          <h1>i'm achraf</h1>
+          <h4>frontend developer</h4>
           <a href='contact.html' className='btn hero-btn'>
             hire me
           </a>
