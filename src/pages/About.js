@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div class='section-center page-info'>
         <p>
-          Hello, I am achraf ayadi and I am a Frontend developer. I spend most
+          Hello, I am Aschraf Ayadi and I am a Frontend developer. I spend most
           of my day, experimenting with HTML, CSS and JavaScript. I enjoy coding
           and the challenge of learning something new everyday.
         </p>

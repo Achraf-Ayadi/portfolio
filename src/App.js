@@ -9,6 +9,7 @@ import Error from './pages/Error'
 
 // components
 import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -16,13 +17,14 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Sidebar />
       <Switch>
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route path='/about'>
+        {/* <Route path='/about'>
           <About />
-        </Route>
+        </Route> */}
         <Route exact path='/projects'>
           <Projects />
         </Route>
