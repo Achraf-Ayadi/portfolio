@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import AboutImg from '../images/Foto von Aschraf Ayadi.jpg'
 import styled from 'styled-components'
 
@@ -30,9 +29,7 @@ const AboutHome = () => {
               expedita, maiores velit quo facilis qui hic voluptatum voluptas ea
               officiis maxime?
             </p>
-            {/* <Link to='/about' className='btn about-btn'>
-              about me
-            </Link> */}
+           
           </article>
         </div>
       </section>

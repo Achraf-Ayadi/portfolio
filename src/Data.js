@@ -1,100 +1,111 @@
-// projects array
+import cocktail from './images/cocktail.png'
+import movie from './images/movie.png'
+import githubUser from './images/githubUser.png'
+import ToDoApp from './images/ToDoApp.png'
+import stockphotos from './images/stock-photos.png'
+import menu from './images/menu.png'
+import pagination from './images/pagination.png'
+import store from './images/the-store-house.jpeg'
+import quiz from './images/quiz.png'
+import hackernews from './images/hacker-news.png'
+import Hotel from './images/HotelResort.png'
 
+/* eslint import/no-anonymous-default-export: [2, {"allowArray": true}] */
 export default [
   {
     id: 1,
     name: 'The House Store ',
     url: 'https://the-house-store.ml',
     repos: 'https://github.com/Achraf-Ayadi/The-Store-House',
-    img: './images/the-store-house.png',
-    skills: [],
+    img: store,
+    skills: ['React', 'styled Components', 'Html'],
   },
   {
     id: 2,
     name: 'The Beach Resort',
-    // url: 'https://the-house-store.ml',
+    // url: 'hotel-resort.ml ',
     repos: 'https://github.com/Achraf-Ayadi/Beach-Resort',
-    // img: './images/',
-    skills: [],
+    img: Hotel,
+    skills: ['javascript', 'React', 'css', 'html'],
   },
   {
     id: 3,
     name: 'Github User Search',
     url: 'https://github-user.ml',
     repos: 'https://github.com/Achraf-Ayadi/Github-user-search',
-    img: './images/githubUser.png',
-    skills: [],
+    img: githubUser,
+    skills: ['React', 'styled Components', 'Html'],
   },
-  ,
+
   {
     id: 4,
     name: 'To Do App',
     url: 'https://todo-app.tk',
     repos: 'https://github.com/Achraf-Ayadi/grocery-bud-React',
-    img: './images/ToDoApp.png',
-    skills: [],
+    img: ToDoApp,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 5,
     name: 'Movie App',
     url: 'https://movie-app.ml',
     repos: 'https://github.com/Achraf-Ayadi/movie-React',
-    img: './images/movie.png',
-    skills: [],
+    img: movie,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 6,
     name: 'Stock Photos',
     url: 'https://stock-photos.ml',
     repos: 'https://github.com/Achraf-Ayadi/stock-photos-React',
-    img: './images/stock-photos.png',
-    skills: [],
+    img: stockphotos,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 7,
     name: 'Menu Search',
     url: 'https://menu-search.ml',
     repos: 'https://github.com/Achraf-Ayadi/menu-React',
-    img: './images/menu.png',
-    skills: [],
+    img: menu,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 8,
     name: 'Pagination',
     url: 'https://pagination.ml',
     repos: 'https://github.com/Achraf-Ayadi/pagination-React',
-    img: './images/pagination.png',
-    skills: [],
+    img: pagination,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 9,
     name: 'Cocktail',
     url: 'https://cocktail-app.ml',
     repos: 'https://github.com/Achraf-Ayadi/React-Project-Cocktail',
-    img: './images/cocktail.png',
-    skills: [],
+    img: cocktail,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 10,
     name: 'Quiz',
     url: 'http://quiz-app.cf',
     repos: 'https://github.com/Achraf-Ayadi/quiz-React',
-    img: './images/quiz.png',
-    skills: [],
+    img: quiz,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
-  ,
+
   {
     id: 11,
     name: 'Hacker News',
     url: 'https://hacker-news.tk',
     repos: 'https://github.com/Achraf-Ayadi/hacker-news-React',
-    img: './images/hacker-news.png',
-    skills: [],
+    img: hackernews,
+    skills: ['javascript', 'React', 'css', 'Html'],
   },
 ]

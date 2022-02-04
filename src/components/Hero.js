@@ -20,8 +20,8 @@ const Hero = () => {
             <div className='hero-icons'>
               <a
                 rel='noreferrer'
-                href='https://github.com/Achraf-Ayadi'
                 target='_blank'
+                href='https://github.com/Achraf-Ayadi'
               >
                 <AiFillGithub className='hero-icon' />
               </a>
