@@ -10,7 +10,7 @@ const ContactHome = () => {
         autoPlay
         muted
         loop
-        // poster=''
+  
         className='video-container'
       >
         <source src={ConnectVideo} type='video/mp4' />
