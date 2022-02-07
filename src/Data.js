@@ -23,7 +23,7 @@ export default [
   {
     id: 2,
     name: 'The Beach Resort',
-    // url: 'hotel-resort.ml ',
+    url: 'https://hotel-resort.ml ',
     repos: 'https://github.com/Achraf-Ayadi/Beach-Resort',
     img: Hotel,
     skills: ['javascript', 'React', 'css', 'html'],

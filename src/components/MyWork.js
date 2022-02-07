@@ -1,28 +1,35 @@
 import React from 'react'
+import projects from '../Data'
 
 const MyWork = () => {
   return (
-    <section class='section projects'>
-      <div class='section-title'>
+    <section className='section projects'>
+      <div className='section-title'>
         <h2>latest works</h2>
-        <div class='underline'></div>
-        <p class='projects-text'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt sed
-          reiciendis quis provident vero cum accusamus illum perferendis
-          debitis, alias porro? Incidunt, veniam? Dicta adipisci accusamus
-          officia temporibus inventore a.
-        </p>
+        <div className='underline'></div>
       </div>
-      <div class='section-center projects-center'>
-        <a href='projects.html' class='project-1'>
-          <article class='project'>
-            <img src='./images/project-1.jpeg' alt='' class='project-img' />
-            <div class='project-info'>
-              <h4>project title</h4>
-              <p>client name</p>
-            </div>
-          </article>
-        </a>
+      <div className='section-center projects-center'>
+        {projects
+          .map((project) => {
+            const { id, name, url, img } = project
+            return (
+              <a
+                key={id}
+                href={url}
+                className='project'
+                rel='noreferrer'
+                target='_blank'
+              >
+                <article className='project'>
+                  <img src={img} alt={name} className='project-img' />
+                  <div className='project-info'>
+                    <h4>{name}</h4>
+                  </div>
+                </article>
+              </a>
+            )
+          })
+          .slice(0, 3)}
       </div>
     </section>
   )

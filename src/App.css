@@ -188,7 +188,6 @@ Sidebar
 ===============
 */
 
-
 /*
 =============== 
 About
@@ -323,18 +322,6 @@ Projects
   .project-img {
     height: 100%;
   }
-  .project-1 {
-    grid-area: b;
-  }
-  .project-2 {
-    grid-area: a;
-  }
-  .project-3 {
-    grid-area: c;
-  }
-  .project-4 {
-    grid-area: d;
-  }
 }
 /*
 =============== 
@@ -345,7 +332,7 @@ Connect
   min-height: 40vh;
   position: relative;
   padding: 10rem 0 5rem 0;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 .video-container {
   position: absolute;
@@ -461,6 +448,9 @@ Skills
   -webkit-box-align: center;
   align-items: center;
 }
+.value-60 {
+  width: 60%;
+}
 .value-70 {
   width: 70%;
 }
@@ -474,6 +464,9 @@ Skills
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+.skill-text-60 {
+  left: 60%;
+}
 .skill-text-70 {
   left: 70%;
 }
@@ -486,8 +479,6 @@ Skills
 Footer
 ===============
 */
-
-
 
 /*
 =============== 
@@ -518,5 +509,3 @@ Single Page
 Projects
 ===============
 */
-
-

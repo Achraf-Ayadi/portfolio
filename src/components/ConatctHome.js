@@ -22,10 +22,8 @@ const ContactHome = () => {
           <div className='underline'></div>
         </div>
         <p className='video-text'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non qui quam
-          exercitationem consequuntur facere hic magni voluptatum animi maiores
-          corporis. Consectetur eaque sed perferendis numquam accusamus facere
-          magni cumque odit?
+          If you have any questions or queries, I will always be happy to hear
+          from you. Feel free to contact me.
         </p>
         <Link to='/contact' className='btn'>
           contact me

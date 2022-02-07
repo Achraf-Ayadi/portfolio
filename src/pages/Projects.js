@@ -1,9 +1,6 @@
 import React from 'react'
 import { AiFillGithub, AiOutlineHome } from 'react-icons/ai'
-import bild from '../images/cocktail.png'
-
 import styled from 'styled-components'
-
 import projects from '../Data'
 
 const Projects = () => {
@@ -18,7 +15,6 @@ const Projects = () => {
       <section className='section section-center projects-page-center'>
         {projects.map((project) => {
           const { id, name, url, img, repos, skills } = project
-          console.log(img)
           return (
             <article key={id} className='single-project'>
               <div className='project-container'>
@@ -129,6 +125,7 @@ const Wrapper = styled.section`
     }
   }
   .project-footer {
+    ${'' /* padding-top: 1rem; */}
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
