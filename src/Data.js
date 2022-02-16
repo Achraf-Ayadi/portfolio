@@ -18,7 +18,7 @@ export default [
     url: 'https://the-house-store.ml',
     repos: 'https://github.com/Achraf-Ayadi/The-Store-House',
     img: store,
-    skills: ['React', 'styled Components', 'Html'],
+    skills: ['React', 'styled Components', 'Auth0', 'Stripe'],
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export default [
     url: 'https://hotel-resort.ml ',
     repos: 'https://github.com/Achraf-Ayadi/Beach-Resort',
     img: Hotel,
-    skills: ['javascript', 'React', 'css', 'html'],
+    skills: ['React', 'css', 'html'],
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export default [
     url: 'https://github-user.ml',
     repos: 'https://github.com/Achraf-Ayadi/Github-user-search',
     img: githubUser,
-    skills: ['React', 'styled Components', 'Html'],
+    skills: ['React', 'FusionCharts'],
   },
 
   {
@@ -43,7 +43,7 @@ export default [
     url: 'https://todo-app.tk',
     repos: 'https://github.com/Achraf-Ayadi/grocery-bud-React',
     img: ToDoApp,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -52,7 +52,7 @@ export default [
     url: 'https://movie-app.ml',
     repos: 'https://github.com/Achraf-Ayadi/movie-React',
     img: movie,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -61,7 +61,7 @@ export default [
     url: 'https://stock-photos.ml',
     repos: 'https://github.com/Achraf-Ayadi/stock-photos-React',
     img: stockphotos,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -70,7 +70,7 @@ export default [
     url: 'https://menu-search.ml',
     repos: 'https://github.com/Achraf-Ayadi/menu-React',
     img: menu,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -79,7 +79,7 @@ export default [
     url: 'https://pagination.ml',
     repos: 'https://github.com/Achraf-Ayadi/pagination-React',
     img: pagination,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -88,7 +88,7 @@ export default [
     url: 'https://cocktail-app.ml',
     repos: 'https://github.com/Achraf-Ayadi/React-Project-Cocktail',
     img: cocktail,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -97,7 +97,7 @@ export default [
     url: 'http://quiz-app.cf',
     repos: 'https://github.com/Achraf-Ayadi/quiz-React',
     img: quiz,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 
   {
@@ -106,6 +106,6 @@ export default [
     url: 'https://hacker-news.tk',
     repos: 'https://github.com/Achraf-Ayadi/hacker-news-React',
     img: hackernews,
-    skills: ['javascript', 'React', 'css', 'Html'],
+    skills: ['React', 'css', 'Html'],
   },
 ]
