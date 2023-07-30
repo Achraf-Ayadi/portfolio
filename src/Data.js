@@ -15,7 +15,7 @@ export default [
   {
     id: 1,
     name: 'The House Store ',
-    url: 'the-house-store-ayadi.netlify.app',
+    url: 'https://the-house-store-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/The-Store-House',
     img: store,
     skills: ['React', 'styled Components', 'Auth0', 'Stripe'],
