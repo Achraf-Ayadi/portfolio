@@ -15,7 +15,7 @@ export default [
   {
     id: 1,
     name: 'The House Store ',
-    url: 'https://the-house-store.ml',
+    url: 'the-house-store-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/The-Store-House',
     img: store,
     skills: ['React', 'styled Components', 'Auth0', 'Stripe'],
@@ -23,7 +23,7 @@ export default [
   {
     id: 2,
     name: 'The Beach Resort',
-    url: 'https://hotel-resort.ml ',
+    url: 'https://hotel-resort-ayadi.netlify.app/ ',
     repos: 'https://github.com/Achraf-Ayadi/Beach-Resort',
     img: Hotel,
     skills: ['React', 'css', 'html'],
@@ -31,7 +31,7 @@ export default [
   {
     id: 3,
     name: 'Github User Search',
-    url: 'https://github-user.ml',
+    url: 'https://github-user-search-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/Github-user-search',
     img: githubUser,
     skills: ['React', 'FusionCharts'],
@@ -40,7 +40,7 @@ export default [
   {
     id: 4,
     name: 'To Do App',
-    url: 'https://todo-app.tk',
+    url: 'https://todoapp-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/grocery-bud-React',
     img: ToDoApp,
     skills: ['React', 'css', 'Html'],
@@ -49,7 +49,7 @@ export default [
   {
     id: 5,
     name: 'Movie App',
-    url: 'https://movie-app.ml',
+    url: 'https://ayadi-movie-app.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/movie-React',
     img: movie,
     skills: ['React', 'css', 'Html'],
@@ -58,7 +58,7 @@ export default [
   {
     id: 6,
     name: 'Stock Photos',
-    url: 'https://stock-photos.ml',
+    url: 'https://stock-photos-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/stock-photos-React',
     img: stockphotos,
     skills: ['React', 'css', 'Html'],
@@ -67,7 +67,7 @@ export default [
   {
     id: 7,
     name: 'Menu Search',
-    url: 'https://menu-search.ml',
+    url: 'https://menu-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/menu-React',
     img: menu,
     skills: ['React', 'css', 'Html'],
@@ -76,7 +76,7 @@ export default [
   {
     id: 8,
     name: 'Pagination',
-    url: 'https://pagination.ml',
+    url: 'https://pagination-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/pagination-React',
     img: pagination,
     skills: ['React', 'css', 'Html'],
@@ -85,7 +85,7 @@ export default [
   {
     id: 9,
     name: 'Cocktail',
-    url: 'https://cocktail-app.ml',
+    url: 'https://cocktail-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/React-Project-Cocktail',
     img: cocktail,
     skills: ['React', 'css', 'Html'],
@@ -94,7 +94,7 @@ export default [
   {
     id: 10,
     name: 'Quiz',
-    url: 'http://quiz-app.cf',
+    url: 'http://quiz-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/quiz-React',
     img: quiz,
     skills: ['React', 'css', 'Html'],
@@ -103,7 +103,7 @@ export default [
   {
     id: 11,
     name: 'Hacker News',
-    url: 'https://hacker-news.tk',
+    url: 'https://hackernews-ayadi.netlify.app',
     repos: 'https://github.com/Achraf-Ayadi/hacker-news-React',
     img: hackernews,
     skills: ['React', 'css', 'Html'],
